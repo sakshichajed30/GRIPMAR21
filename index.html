@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donation</title>
+</head>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Roboto&family=Sora&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="CSS/style.css">
+<!--as it is in CSS folder so CSS -->
+<style>
+     /* CSS RESET i.e chnging the margin & paduung of the body  */
+
+     .header{
+         background-color: black;
+        
+         /* z-index: -1;
+      opacity: 0.4; */
+     }
+ body {
+    font-family: 'Roboto', serif;
+    margin: -22px;
+    padding: 3px;
+    /* to take the bg image  */
+    background: url("https://i.pinimg.com/originals/89/d2/df/89d2df3b22deb8589bbbc0b3dbab5b88.jpg");
+    /* to not repeat th image  */
+    background-repeat: no-repeat;
+    /* to take full size of image for website  */
+    background-size: cover;
+    color: white;
+}
+
+.left {
+    /* to take it to the left  */
+    position: absolute;
+    left: 34px;
+    top: 20px;
+
+    
+    display: flex;
+}
+
+.left img{
+    height: 50px;
+    width:50px;
+
+}
+
+.mid {
+    /* to brinh=g it at the centre the 3 conditions display,width &margin auto  */
+    display: flex;
+    width: 33%;
+    margin: 20px auto;
+    /*12px space from top*/
+   
+
+
+
+
+}
+
+.navbar {
+    diplay: flex:
+    /*to get in one line*/
+   
+    
+}
+
+.navbar li {
+    display: inline-block;
+    /*to get home & all in one line*/
+   
+  
+
+}
+
+.navbar li a {
+    color: white;
+    /*to make color of the home & all i.e which is in the tag a */
+    text-decoration: none;
+    padding: 33px 23px;
+    /* space between the home aboutus & contact i.e between elements in A tag*/
+      
+    font-size: 20px;
+}
+
+/* if you hover over any of the elements in navigation bar or if your any of the element is active the uderline that element  */
+.navbar li a:hover,
+.navbar li a:active {
+    text-decoration: none;
+    color: grey;
+
+}
+
+.right {
+    /* to take it to the right  */
+    position: absolute;
+    right: 34px;
+    top: 15px;
+    /*20 px down from tp i.e space*/
+    color: yellow;
+    text-decoration: none;
+
+  
+    display: inline-block;
+
+}
+
+.btn {
+    margin: 0px 9px;
+    /*top horizontal*/
+    font-family: 'Roboto', sans-serif;
+    background-color:white;
+    color: grey;
+    text-decoration: none;
+
+    padding: 3px 14px;
+    /*vertical horizontal*/
+    border-radius: 10px;
+    font-size: 15px;
+    cursor: pointer;
+    /*to get hand*/
+
+}
+
+.btn:hover {
+    background-color: white;
+
+}
+
+.container{
+
+    margin: -226px -258px;
+    padding: 224px 300px;
+    width: 50%;
+    color:black;
+    
+}
+</style>
+
+<body>
+    <header class="header">
+        <!-- for logo  -->
+
+        <div class="left">
+              <emp>TSF </emp>
+        </div>
+
+        <!-- for navigation  -->
+        <div class="mid">
+
+          <ul class="navbar">
+                <!-- a tag for link  -->
+                <li> <a href="#">Home</a></li>
+                <li><a href="aboutUs.html">About Us</a></li>
+               
+            </ul>
+
+        </div>
+
+        <!-- for buttons  -->
+        <div class="right">
+            <a href="contactUs.html" ><button class="btn">Contact us</a></button>
+        
+
+        </div>
+
+    </header>
+
+    <div class="container">
+        <h1>THE&nbsp;&nbsp;&nbsp; SPARK&nbsp;&nbsp;&nbsp;FOUNDATION</h1>
+    </div>
+
+</body>
+
+</html>
+

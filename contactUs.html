@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact us</title>
+    <style>
+.header{
+    background-color: black;
+}
+
+ body {
+    font-family: 'Roboto', sans-serif;
+    margin: -22px;
+    padding: 3px;
+    /* to take the bg image  */
+    background-image: url('https://cdn.thelifeyoucansave.org/uploads/2019/11/Screen-Shot-2015-07-13-at-1.53.34-PM.png');
+    /* to not repeat th image  */
+    background-repeat: no-repeat;
+    /* to take full size of image for website  */
+    background-size: cover;
+    color: white;
+}
+
+        }
+.form{
+    
+              
+        border: 2px solid white;
+        margin: 106px 80px 50px 80px;
+
+        padding: 75px 75px;
+        width: 33%;
+        
+
+}
+
+
+.form-group input {
+        
+        font-family: 'Recursive', sans-serif;
+        text-align: center;
+        display: block;
+        width: 508px;
+        padding: 1px;
+        border: 2px solid black;
+        margin: 11px auto;
+        font-size: 25px;
+        /* border-radius: 8px; */
+    }
+    .form h1 {
+        text-align: center;
+    }
+
+    .form button {
+        display: block;
+        width: 11%;
+        margin: 20px auto;
+    }
+
+    .left {
+    /* to take it to the left  */
+    position: absolute;
+    left: 34px;
+    top: 20px;
+
+   
+    display: flex;
+}
+
+.left img{
+    height: 50px;
+    width:50px;
+
+}
+
+.mid {
+    /* to brinh=g it at the centre the 3 conditions display,width &margin auto  */
+    display: flex;
+    width: 33%;
+    margin: 20px auto;
+    /*12px space from top*/
+   
+
+
+
+
+}
+
+.navbar {
+    diplay: flex:
+    /*to get in one line*/
+    
+
+    
+}
+
+.navbar li {
+    display: inline-block;
+    /*to get home & all in one line*/
+  
+
+}
+
+.navbar li a {
+    color: white;
+    /*to make color of the home & all i.e which is in the tag a */
+    text-decoration: none;
+    padding: 33px 23px;
+    /* space between the home aboutus & contact i.e between elements in A tag*/
+      
+    font-size: 20px;
+}
+
+/* if you hover over any of the elements in navigation bar or if your any of the element is active the uderline that element  */
+.navbar li a:hover,
+.navbar li a:active {
+    text-decoration: underline;
+    color: grey;
+
+}
+
+.right {
+    /* to take it to the right  */
+    position: absolute;
+    right: 34px;
+    top: 15px;
+    /*20 px down from tp i.e space*/
+
+    border: 2px solid rgb(17, 95, 240);
+    display: inline-block;
+
+}
+
+.form{
+          
+     margin: 150px 150px; 
+     margin-left: -852px;
+   
+}
+
+    </style>
+</head>
+<body>
+    <header class="header">
+        <!-- for logo  -->
+
+        <div class="left">
+              <emp>TSF </emp>
+        </div>
+
+        <!-- for navigation  -->
+        <div class="mid">
+
+          <ul class="navbar">
+                <!-- a tag for link  -->
+                <li> <a href="index.html" target="_blank">Home</a></li>
+                <li><a href="aboutus.html" target="_blank">About Us</a></li>
+                
+            </ul>
+
+        </div>
+        </header>
+    <div class="form">
+            <h1>Contact now</h1>
+            <form action="noaction.php">
+                <div class="form-group">
+                    <input type="text" name="" placeholder="Enter your Name">
+                </div>
+               
+                <div class="form-group">
+                    <input type="text" name="" placeholder="Enter your Locality">
+                </div>
+                <div class="form-group">
+                    <input type="text" name="" placeholder="Enter your Email Id">
+                </div>
+                <div class="form-group">
+                    <input type="text" name="" placeholder="Enter your Phone Number">
+                </div>
+                <button class="btn">Contact</button>
+            </form>
+    </div>
+</body>
+</html>
